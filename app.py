@@ -10,7 +10,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 # Database
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://if0_34754069:LW1Z7ltJS5yAtm@sqlXXX.infinityfree.com/if0_34754069_XXX'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
